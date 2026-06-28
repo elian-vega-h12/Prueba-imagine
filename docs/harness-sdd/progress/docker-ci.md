@@ -19,9 +19,13 @@
 ## Verification
 
 - `docker compose config`: passed
-- `docker compose build`: blocked because Docker Desktop daemon is not reachable on this machine
+- `docker compose build`: passed after Docker Desktop became available
+- `docker compose up -d`: passed on alternate ports `BACKEND_PORT=18000` and `FRONTEND_PORT=15173`
+- `GET http://localhost:18000/health`: returned `{"status":"ok"}`
+- `GET http://localhost:15173`: returned HTTP 200
+- `POST http://localhost:18000/clients`: created a smoke-test client
 - GitHub Actions syntax: workflow added; runtime execution pending on GitHub
 
 ## Open Items
 
-- Docker Desktop must be running to build images locally.
+- None
