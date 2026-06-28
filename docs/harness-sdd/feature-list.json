@@ -1,0 +1,44 @@
+[
+  {
+    "id": "customer-management",
+    "title": "Customer Management",
+    "state": "blocked",
+    "sdd": true,
+    "featureFile": "features/customer-management.feature"
+  },
+  {
+    "id": "ticket-management",
+    "title": "Ticket Management",
+    "state": "blocked",
+    "sdd": true,
+    "featureFile": "features/ticket-management.feature"
+  },
+  {
+    "id": "audit-events",
+    "title": "Ticket Audit Events",
+    "state": "blocked",
+    "sdd": true,
+    "featureFile": "features/audit-events.feature"
+  },
+  {
+    "id": "frontend-client-ticket-ui",
+    "title": "Frontend Client And Ticket UI",
+    "state": "done",
+    "sdd": true,
+    "featureFile": "features/frontend-client-ticket-ui.feature"
+  },
+  {
+    "id": "docker-ci",
+    "title": "Docker And CI Runtime",
+    "state": "done",
+    "sdd": true,
+    "featureFile": "features/docker-ci.feature"
+  },
+  {
+    "id": "salesforce-integration-doc",
+    "title": "Salesforce Integration Document",
+    "state": "done",
+    "sdd": true,
+    "featureFile": "features/salesforce-integration-doc.feature"
+  }
+]

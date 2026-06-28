@@ -1,0 +1,10 @@
+Feature: <feature title>
+
+  Background:
+    Given <shared starting condition>
+
+  Scenario: <expected behavior>
+    Given <initial state>
+    When <action happens>
+    Then <observable outcome>
+    And <additional observable outcome>
