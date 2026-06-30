@@ -19,3 +19,4 @@ Feature: Ticket audit events
     Given a ticket exists
     When the user changes the ticket status without an audit header
     Then the audit event user is "system"
+
