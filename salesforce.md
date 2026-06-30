@@ -61,4 +61,3 @@ export default class SupportTicketList extends LightningElement {
 
 I would expose a customer portal in Experience Cloud where authenticated customers can view their Cases, create new support requests, and track status changes. Access would be controlled with sharing rules and Experience Cloud profiles so each customer only sees records linked to their own Contact or Account.
 
-##
