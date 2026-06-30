@@ -13,3 +13,5 @@ COPY alembic.ini ./
 COPY alembic ./alembic
 
 EXPOSE 8000
+
+

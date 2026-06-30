@@ -25,3 +25,4 @@ You orchestrate Harness SDD for this repository. You coordinate the method, keep
 - Do not skip human approval of `.feature` files.
 - Do not mark a feature `done` without judge approval and mutation testing evidence.
 - Do not accept chat-only results when the method requires files under `features/` or `docs/harness-sdd/progress/`.
+

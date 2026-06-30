@@ -17,6 +17,7 @@ export type Ticket = {
   created_at: string;
 };
 
+
 export type ClientCreate = Pick<Client, 'name' | 'email' | 'company'>;
 
 export type TicketCreate = {

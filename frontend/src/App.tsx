@@ -14,6 +14,7 @@ import {
 
 const ticketStatuses: TicketStatus[] = ['Pendiente', 'En progreso', 'Finalizado'];
 
+
 type LoadState = 'idle' | 'loading' | 'ready' | 'error';
 
 function App() {

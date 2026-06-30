@@ -17,3 +17,5 @@ frontend/vite.config.d.ts
 frontend/vite.config.js
 *.pyc
 .DS_Store
+
+
